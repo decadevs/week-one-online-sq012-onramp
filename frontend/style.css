@@ -1,0 +1,106 @@
+body {
+  background-color: #ffffff;
+  margin: 0px;
+  font-family: "Lato", sans-serif;
+}
+
+.body-box {
+  background-color: #eaeaf9;
+  /* background-color: #f1f1fb; */
+  position: absolute;
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  width: 100%;
+  height: 97.5%;
+}
+
+#color-text-two {
+  color: #393a62;
+}
+
+#color-text-three {
+  color: #dba09e;
+}
+
+.orange-box {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 8px;
+  width: 15%;
+  height: 95.2%;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  background-color: #ea4c3c;
+}
+
+.content {
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 60px;
+  width: 90%;
+  height: 86.5%;
+  border-radius: 40px;
+  background-color: #ffffff;
+}
+
+.menu {
+  position: absolute;
+  margin-top: 60px;
+  margin-left: 60px;
+  width: 15%;
+  height: 86.5%;
+  border-top-left-radius: 40px;
+  border-bottom-left-radius: 40px;
+  background-color: #f1f1fb;
+}
+
+.menu-profile-image {
+  margin-top: 40px;
+  margin-left: 30px;
+  color: lightgray;
+}
+
+.profile-icon-size {
+  width: 40px;
+  height: 40px;
+}
+
+.menu-space {
+  margin-top: 60px;
+}
+
+.menu-unselected-item {
+  margin-top: 10px;
+  margin-left: 35px;
+  color: lightgray;
+}
+
+.icon-size {
+  width: 20px;
+  height: 20px;
+}
+
+.menu-unselected-item-logout {
+    position: relative;
+    margin-top: 10px;
+    margin-left: 35px;
+    bottom: -30%;
+    color: lightgray;
+  }
+
+.page {
+  background-color: #ffffff;
+}
+
+#color-text-four {
+  color: #ea4c3c;
+}
+
+#color-text-five {
+  color: #9292ae;
+}
+
+#color-text-six {
+  color: #747399;
+}
