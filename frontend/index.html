@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,23 +11,102 @@
     <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
+<body>
+    
     <div class="body-box"></div>
     <div class="orange-box"></div>
-    <div class="content"></div>
+    <div class="content-box"></div>
+    
     <div class="menu">
-        <div class="menu-profile-image"><img src="image/avater.png" alt="profile image" class="profile-icon-size"> <span>TTTTTTTTTT</span></div>
+        <div class="menu-profile-image"><img src="image/avatar.png" alt="profile image thumnail" class="profile-icon-size"></div>
+        <div class="menu-profile-image-text">
+            <div><strong>Ikechi Ucheagwu</strong></div>
+            <div>@iykeafrica</div>
+        </div>
+        <br clear="all" />
         <div class="menu-space"></div>
-        <div class="menu-unselected-item"><img src="image/general.png" alt="profile image" class="icon-size"></div>
-        <div class="menu-unselected-item"><img src="image/password.png" alt="profile image" class="icon-size"></div>
-        <div class="menu-unselected-item"><img src="image/invitation.png" alt="profile image" class="icon-size"></div>
-        <div class="menu-unselected-item"><img src="image/billing.png" alt="profile image" class="icon-size"></div>
-        <div class="menu-unselected-item"><img src="image/apps.jpg" alt="profile image" class="icon-size"></div>
-        <div class="menu-unselected-item-logout"><img src="image/avater.png" alt="profile image" class="icon-size"></div>
+        
+        <div class="menu-unselected-item"><img src="image/general.png" alt="homepage menu icon" class="icon-size"></div>
+        <div class="menu-unselected-item-text">General</div>
+        <br clear="all" />
+        
+        <div class="menu-unselected-item"><img src="image/password.png" alt="password menu icon" class="icon-size"></div>
+        <div class="menu-unselected-item-text">Password</div>
+        <br clear="all" />
+        
+        <div class="menu-unselected-item"><img src="image/invitation.png" alt="invitation  menu icon" class="icon-size"></div>
+        <div class="menu-unselected-item-text">Invitations</div>
+        <br clear="all" />
+        
+        <div class="menu-container-selected-item">
+            <div class="vertical-bar"></div>
+            <div class="menu-selected-item"><img src="image/billing.png" alt="billing menu icon" class="icon-size"></div>
+            <div class="menu-selected-item-text">Billing</div>
+        </div>
+        <br clear="all" />
+        
+        <div class="menu-unselected-item"><img src="image/apps.png" alt="app menu icon" class="icon-size"></div>
+        <div class="menu-unselected-item-text">Apps</div>
+        <br clear="all" />
+        
+        <div class="menu-unselected-item-logout"><img src="image/logout.png" alt="logout menu icon" class="icon-size"></div>
+        <div class="menu-unselected-item-logout-text">Log out</div>
+        <br clear="all" />
     </div>
+    
+    <div class="page">
+        
+        <div class="list">
+            <p class="page-strong-color" style="font-size: 25px;"><strong>Billing</strong></p>
+            <p class="page-strong-color" style="font-size: 14px; margin-bottom: 0px;"><strong>Order History</strong></p>
+            <p class="page-light-color" style="font-size: 12px; margin-top: 4px; margin-bottom: 50px;">Manage billing information and view receipts</p>
+            <table style="width:94%;">
+                <tr style="text-align: left;">
+                    <th class="page-light-color" style="font-size: 12px; padding: 10px;">Date</th>
+                    <th class="page-light-color" style="font-size: 12px; padding: 10px;">Type</th>
+                    <th class="page-light-color" style="font-size: 12px; padding: 10px;">Recipts</th>
+                </tr>
+                <tr>
+                    <td><strong>Oct 21, 2021</strong></td>
+                    <td><strong>Pro Annual</strong></td>
+                    <td class="download-button"><strong>Download</strong></td>
+                </tr>
 
+                <tr>
+                    <td><strong>Oct 21, 2021</strong></td>
+                    <td><strong>Pro Annual</strong></td>
+                    <td class="download-button"><strong>Download</strong></td>
+                </tr>
 
+                <tr>
+                    <td><strong>Oct 21, 2021</strong></td>
+                    <td><strong>Pro Annual</strong></td>
+                    <td class="download-button"><strong>Download</strong></td>
+                </tr>
+
+                <tr>
+                    <td><strong>Oct 21, 2021</strong></td>
+                    <td><strong>Pro Annual</strong></td>
+                    <td class="download-button"><strong>Download</strong></td>
+                </tr>
+            
+            </table>
+        </div>
+        
+        <div class="details">
+            <div class="square-box">
+                <div class="text-plan">
+                    <p style="font-size: 12px;">Your plan</p>
+                    <p style="font-size: medium; margin-bottom: 0px;"><strong>Pro Annual</strong></p>
+                    <p style="font-size: 12px; margin-top: 4px; margin-bottom: 25px;">Renews on Nov. 2021</p>
+                    <p style="font-size: 12px; margin-right: 25px; background-color: #ea4c3c; border: 1px solid white; text-align: center; padding: 3px; border-radius: 5px;">Cancel subscription</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
     
 </body>
+
 </html>
