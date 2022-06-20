@@ -1,0 +1,133 @@
+.body {
+    background-color: #e6e6fa;
+    display: flex;
+  }
+  .Content_Card {
+    width: 100%;
+    display: flex;
+    margin: auto;
+  }
+  .container {
+    margin-top: 30px;
+    margin-left: -156px;
+    z-index: 1;
+    margin-bottom: 30px;
+    width: 85%;
+    background-color: #dddddd;
+    border-radius: 30px;
+    overflow: hidden;
+  }
+  .fancy-card {
+    background: #ea4c3c;
+    width: 15%;
+    border-radius: 40px;
+    margin-left: 70px;
+  }
+  .panel {
+    width: 100%;
+    display: flex;
+  }
+  #left_panel {
+    width: 20%;
+    background-color: aliceblue;
+    padding-bottom: 45px;
+  }
+  .pan {
+    margin-top: 20px;
+    padding: 15px;
+  }
+  #middle_panel {
+    width: 70%;
+    background-color: white;
+    padding: 20px;
+    padding-left: 60px;
+  }
+  #right_panel {
+    width: 25%;
+    background-color: white;
+  }
+  
+  .container .const {
+    width: 100%;
+  }
+  table {
+    font-family: arial, sans-serif;
+    /* border-collapse: collapse; */
+    width: 100%;
+  }
+  
+  td,
+  th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 15px;
+  }
+  
+  /* tr:nth-child(even) {
+    background-color: #dddddd;
+  } */
+  .box_shadow{
+    box-shadow: 0 6px 19px rgba(0, 0, 0, 0.2);
+  }
+  .box_holder {
+    background: #ea4c3c;
+    border-radius: 15px;
+    color: white;
+    width: 200px;
+    margin-top: 110px;
+  }
+  ._plan {
+    padding: 10px;
+    margin-left: 18px;
+  }
+  ._img {
+    width: 15%;
+    border-radius: 50%;
+  }
+  ._img_tag {
+    width: 50%;
+    border-radius: 50%;
+  }
+  .tag {
+    display: flex;
+  }
+  .tag p {
+    margin-left: 10px;
+    align-self: center;
+  }
+  .tab_tag {
+    padding-bottom: 30px;
+  }
+  #left_image_panel {
+    margin-bottom: 60px;
+  }
+  .tomato {
+    color: #ea4c3c;
+  }
+  #payment {
+    margin-top: 80px;
+  }
+  .subscription p {
+    border: 1px solid white;
+    padding: 5px;
+    border-radius: 10px;
+  }
+  .footer {
+    display: flex;
+    width: 85%;
+    margin-top: 30px;
+  }
+  #bill{
+    font-size: 35px;
+  }
+  #logout{
+    margin-top: 150px;
+    display: flex;
+    margin-left: 20px;
+  }
+  .text-color{
+    color: #9292AE;
+  }
+  .table_div{
+    margin-top: 60px;
+  }

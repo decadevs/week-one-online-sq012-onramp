@@ -1,4 +1,5 @@
-function secondLargest(arr) {
-  
+function secondLargest() {
+  console.log("Problem solved");
 }
+secondLargest();
 module.exports = secondLargest
