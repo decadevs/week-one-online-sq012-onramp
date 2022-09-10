@@ -4,10 +4,95 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
   </head>
   <body>
-    <h1>Hello world</h1>
-    <h2>Added another h2</h2>
+    <main>
+      <div class="bg-sidebar"></div>
+      <div class="main-container">
+        <div class="sidebar">
+          <div class="profile-details">
+            <h4>Iidiko gaspar</h4>
+            <p>@igaspar</p>
+          </div>
+          <ul class="sidebar-items">
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">general</a>
+            </li>
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">password</a>
+            </li>
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">invitations</a>
+            </li>
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link active">billing</a>
+            </li>
+            <li class="sidebar-item">
+              <a href="#" class="sidebar-link">apps</a>
+            </li>
+          </ul>
+          <div class="logout-button">
+            <p>Log out</p>
+          </div>
+        </div>
+
+        <div class="main-content">
+          <div class="card">
+            <p class="card-header">Your plan</p>
+            <p class="card-title">Pro annual</p>
+            <p class="card-subtitle">Renews on Nov.2021</p>
+            <button class="card-button">Cancel subscription</button>
+          </div>
+          <h1 class="title">Billing</h1>
+          <div class="subtitle">
+            <p>Order history</p>
+            <p>Manage billing information and view receipts</p>
+          </div>
+          <div>
+            <ul class="lists-data">
+              <li class="lists-header">
+                <p>Date</p>
+                <p>Type</p>
+                <p>receipts</p>
+              </li>
+              <li class="lists-item">
+                <p>Oct.21,2021</p>
+                <p>Pro Annual</p>
+                <button>Download</button>
+              </li>
+              <li class="lists-item active-row">
+                <p>Aug.21,2021</p>
+                <p>Pro Portfolio</p>
+                <button>Download</button>
+              </li>
+              <li class="lists-item">
+                <p>Jun.21,2021</p>
+                <p>Sponsored Post</p>
+                <button>Download</button>
+              </li>
+              <li class="lists-item">
+                <p>Jul.21,2021</p>
+                <p>Sponsored Post</p>
+                <button>Download</button>
+              </li>
+            </ul>
+
+            <p class="load-more">Load more</p>
+          </div>
+          <div class="payment-method">
+            <div class="subtitle payment__method-subtitle">
+              <p>Order history</p>
+              <p>Manage billing information and view receipts</p>
+            </div>
+            <div class="visa-card">
+              <button class="visa-button">Visa</button>
+              <span class="visa-details"> Visa ending in 2055 </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
   </body>
 </html>
