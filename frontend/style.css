@@ -84,16 +84,16 @@ main {
 }
 
 .sidebar-item {
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .sidebar-link {
   text-transform: capitalize;
   color: #9292ae;
-  /* border: 2px solid rgb(84, 231, 21); */
   padding: 8px 20px;
   width: 100%;
   display: flex;
+  position: relative;
 }
 
 .sidebar-link:hover {
@@ -102,11 +102,22 @@ main {
   font-size: 18px;
 }
 
-.active {
+.sidebar-link::before {
+  content: '';
+  position: absolute;
+  top: -8px;
+  left: 0;
+  width: 0px;
+  height: 50px;
+  background-color: #ea4c3c;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
 }
 
-.active::before {
-  /* border-left: #3cea87 5px solid; */
+.sidebar-link.active::before {
+  width: 5px;
 }
 
 .logout-button {
@@ -190,7 +201,8 @@ main {
 }
 
 .lists-data {
-  width: 600px;
+  max-width: 600px;
+  width: 100%;
 }
 
 .lists-header {
@@ -241,7 +253,11 @@ main {
   background: transparent;
   border: 1px solid #9292ae;
   border-radius: 5px;
-  cursor: pointer;
+  transition: 0.5s ease all;
+}
+
+.lists-item button:hover {
+  opacity: 0.7;
 }
 
 .load-more {
@@ -254,12 +270,21 @@ main {
   margin-top: 50px;
 }
 
+.visa-card {
+  max-width: 600px;
+  width: 100%;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
 .visa-button {
   color: #393a62;
   font-weight: bold;
   padding: 10px;
   background: transparent;
-  /* border: 1px solid #9292ae; */
   border-radius: 5px;
   font-size: 30px;
   box-shadow: 2px 2px 10px 0px rgba(0, 0, 0, 0.2);
@@ -271,6 +296,98 @@ main {
   margin-left: 20px;
 }
 
-.visa-card {
-  margin-bottom: 50px;
+.remove-button {
+  color: #393a62;
+  font-weight: bold;
+  padding: 10px;
+  background: transparent;
+  border: 1px solid #9292ae;
+  border-radius: 5px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s ease all;
+}
+
+.remove-button:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 1100px) {
+  .card {
+    top: 50px;
+    height: 200px;
+    padding: 10px 20px;
+  }
+  .card-title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  .card-button {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 950px) {
+  .card {
+    display: none;
+  }
+}
+
+@media (max-width: 700px) {
+  .sidebar {
+    display: none;
+  }
+  .lists-header p {
+    width: 80px;
+    margin-left: 10px;
+  }
+
+  .lists-item p {
+    width: 120px;
+    font-size: 12px;
+  }
+
+  .lists-item button {
+    padding: 5px;
+    font-size: 10px;
+  }
+}
+
+@media (max-width: 475px) {
+  .main-content {
+    width: 80%;
+    padding: 50px 20px;
+  }
+
+  .lists-header p {
+    width: 65px;
+    margin-left: 10px;
+  }
+
+  .lists-item p {
+    font-size: 10px;
+  }
+
+  .lists-item button {
+    font-size: 8px;
+  }
+
+  .visa-button {
+    font-size: 18px;
+  }
+
+  .visa-details {
+    margin-left: 10px;
+    font-size: 14px;
+  }
+
+  .payment__method-subtitle {
+    margin-top: 30px;
+  }
+
+  .subtitle {
+    margin-bottom: 40px;
+  }
 }
